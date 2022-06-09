@@ -1,5 +1,32 @@
 # java-read-token-JWT
 
+
+Token
+```java
+
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiItLS0tLS0tIiwibmFtZSI6InZpY2JvbWExIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTU4Mn0.UM5eKa7GZEDmZh-34FjA4iRXtom7pMx4x8Qd4PczzcmK1T8isYPataQm5tBJCpJ0QTG0L8HZQemWmJj-dc3iJA
+
+eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9
+
+{
+  "alg": "HS512",
+  "typ": "JWT"
+}
+
+eyJzdWIiOiItLS0tLS0tIiwibmFtZSI6InZpY2JvbWExIiwiYWRtaW4iOnRydWUsImlhdCI6MTUxNjIzOTU4Mn0
+
+{
+  "sub":  "-------",
+  "name": "vicboma1",
+  "admin": true,
+  "iat": 1516239582
+}
+
+
+[...]
+
+```
+
 Raw call
 
 ```java
