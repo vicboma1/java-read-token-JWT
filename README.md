@@ -1,6 +1,6 @@
 # java-read-token-JWT
 
-Manual
+Raw call
 
 ```java
 
@@ -63,8 +63,11 @@ keycloak.uri.certs: https://${HOST}/auth/realms/${ID}/protocol/openid-connect/ce
       }
   }
 
-#### Roles estáticos
+```
 
+Static Rol
+
+```java
   @RequestMapping(value = "/anonymous", method = RequestMethod.GET)
   public ResponseEntity<String> getAnonymous() {
       return ResponseEntity.ok("Autenticación correcta, Hello Anónimo");
